@@ -22,6 +22,8 @@
 		4F4219AE1D52AD6A0017B9AF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4219AD1D52AD6A0017B9AF /* DataService.swift */; };
 		4F4219B01D52B4630017B9AF /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4219AF1D52B4630017B9AF /* UsersVC.swift */; };
 		4F4219B21D52B70E0017B9AF /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4219B11D52B70E0017B9AF /* UserCell.swift */; };
+		4F4219B51D53C1250017B9AF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4219B41D53C1250017B9AF /* User.swift */; };
+		4F4219B81D53C41C0017B9AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4219B71D53C41C0017B9AF /* Constants.swift */; };
 		C293DD4D6882C00D4B43862A /* Pods_DevChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AF488627A17C5B7F17ED96 /* Pods_DevChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		4F4219AD1D52AD6A0017B9AF /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4F4219AF1D52B4630017B9AF /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
 		4F4219B11D52B70E0017B9AF /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4F4219B41D53C1250017B9AF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4F4219B71D53C41C0017B9AF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		66AF488627A17C5B7F17ED96 /* Pods_DevChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9980CE1F5B9B7C560013130 /* Pods-DevChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevChat/Pods-DevChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +89,8 @@
 		4F33980F1D511D2200071A75 /* DevChat */ = {
 			isa = PBXGroup;
 			children = (
+				4F4219B61D53C4080017B9AF /* Utils */,
+				4F4219B31D53C0E60017B9AF /* Model */,
 				4F4219AA1D5297DE0017B9AF /* Services */,
 				4F3398EF1D51429100071A75 /* Protocols */,
 				4F3398231D51222D00071A75 /* Controller */,
@@ -139,6 +145,22 @@
 				4F4219AD1D52AD6A0017B9AF /* DataService.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		4F4219B31D53C0E60017B9AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F4219B41D53C1250017B9AF /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F4219B61D53C4080017B9AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F4219B71D53C41C0017B9AF /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		5523F0148ABBEFE954748870 /* Pods */ = {
@@ -289,7 +311,9 @@
 				4F3398111D511D2200071A75 /* AppDelegate.swift in Sources */,
 				4F4219B01D52B4630017B9AF /* UsersVC.swift in Sources */,
 				4F4219B21D52B70E0017B9AF /* UserCell.swift in Sources */,
+				4F4219B81D53C41C0017B9AF /* Constants.swift in Sources */,
 				4F4219A51D5274380017B9AF /* RoundTextField.swift in Sources */,
+				4F4219B51D53C1250017B9AF /* User.swift in Sources */,
 				4F3398291D51254500071A75 /* AAPLCameraViewController.m in Sources */,
 				4F33982A1D51254500071A75 /* AAPLPreviewView.m in Sources */,
 				4F4219AC1D5297FA0017B9AF /* AuthService.swift in Sources */,
